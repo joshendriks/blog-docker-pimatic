@@ -1,0 +1,4 @@
+FROM joshendriks/rpimatic1:0.0.1
+RUN cd /home/pimatic-app && npm install pimatic-homeduino pimatic-mqtt
+COPY pimatic_confg.json /home/pimatic-app/config.json
+ENTRYPOINT ["pimatic.js"]
