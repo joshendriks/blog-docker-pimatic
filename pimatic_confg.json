@@ -51,7 +51,7 @@
   "users": [
     {
       "username": "admin",
-      "password": "admin",
+      "password": "pimatic",
       "role": "admin"
     }
   ],
